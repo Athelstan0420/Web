@@ -1,0 +1,60 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+main {
+    max-width: 2888px;
+    position: relative ;
+    margin: 0 auto;
+}
+.menu-principal {
+    width: 100%; /*Largura*/
+    background-color: black;
+    height: 120px;
+}
+.logo {
+    float: left;
+    padding: 20px; /* Espaçamento*/
+     /*Largura*/
+}
+.opcoes ul li {
+    display: inline-block; /*Retira a bolinha da lista*/
+    float: left;
+    font-size: 20px;
+    color: white;
+    height: auto;
+    width: 100px;
+    list-style: none;
+    margin-left: 9%;
+}
+
+.opcoes {
+   float: right;
+   position: relative;
+   display: inline-block;
+   height: 110px;
+   padding-top: 27px;
+   height: 150px;
+   width: 70%;
+}
+
+a {
+    text-align: center;
+    display: inline;
+    color: white;
+    font-size: 30px;
+}
+.barra {
+    border: solid 3px green;
+    background-color: #070;
+}
+.barra1{
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 20px ;
+    margin-left: 11px;
+
+}
+
+
